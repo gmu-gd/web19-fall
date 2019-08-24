@@ -541,7 +541,7 @@ ul.web-meta {margin: 0; padding: 0;}
         font-size: 24px;
         margin-top: 24px;
     }
-    h4 {font-size: 12px; margin-bottom: 2px;}
+    h4 {font-size: 12px; margin-bottom: 2px; page-break-after: avoid !important;}
     p, a, li, em {font-size: 10px; line-height: 14px;}
     strong {font-size: 8px;}
 }
