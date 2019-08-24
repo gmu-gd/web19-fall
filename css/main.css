@@ -455,7 +455,7 @@ ul.web-meta {margin: 0; padding: 0;}
    ========================================================================== */
 
 @media print {
-    @page { margin: 108px; }
+    @page { margin: 72px 108px; }
     *,
     *:before,
     *:after {
