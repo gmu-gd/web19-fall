@@ -1,0 +1,32 @@
+Design Principles Reference
+Linking
+Images - Sizing, Positioning
+Divs - When do I need a class or an ID or div?
+HTML Video
+CSS Animation
+
+
+Emma
+Lanie
+Ceasar
+Ashley
+Andrea
+Warren
+B
+Kerrigan
+Xiao
+Corbin
+Dalia
+Liza
+Anthony
+Jake
+Rachel
+Leah
+Alejandro
+Malhar
+
+
+Maya
+
+
+Sam - Absent
