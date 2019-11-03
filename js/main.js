@@ -10,7 +10,7 @@ $(document).ready(function() {
     })
     // run function on scroll
     $(window).scroll(function() {
-      
+
     })
 });
 
@@ -27,11 +27,27 @@ function studentHeight() {
   $('.student h2').css("padding-top", topPadding);
 }
 
+var i = 1;
 function menuSlide() {
   $('.menu-icon').click(function() {
-    $('body').toggleClass('lock-y');
-    $('.hamburger').toggleClass('is-active');
-    $('.menu-list').toggleClass('menu-animate', 500);
+    if (i == 1) {
+      $('body').toggleClass('lock-y');
+      $('.hamburger').toggleClass('is-active');
+      $('#nav-home').toggleClass('menu-hide');
+      $('#nav-home').toggleClass('menu-animate', 500);
+      i++;
+      console.log("first click" + i);
+    }
+    else {
+      $('body').toggleClass('lock-y');
+      $('.hamburger').toggleClass('is-active');
+      setTimeout(function() {
+        $('#nav-home').toggleClass('menu-hide');
+      }, 500);
+      $('#nav-home').toggleClass('menu-animate', 500);
+      i = 1;
+      console.log("second click" + i);
+    }
   });
 }
 
