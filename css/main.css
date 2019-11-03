@@ -171,7 +171,7 @@ header {
 .student:nth-child(n+21) {
     border-bottom: none;
 }
-.student:last-of-type:hover {background-color: MediumSeaGreen; cursor: initial;}
+/* .student:last-of-type:hover {background-color: MediumSeaGreen; cursor: initial;} */
 .textblock {
     padding: 25px;
     width: 50%;
